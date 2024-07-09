@@ -1,0 +1,1 @@
+export { DashboardPlataform } from "./DashboardPlataform";

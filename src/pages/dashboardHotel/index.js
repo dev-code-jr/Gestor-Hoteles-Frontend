@@ -1,0 +1,1 @@
+export { DashboardHotel } from "./DashboardHotel";

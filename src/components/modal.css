@@ -1,0 +1,61 @@
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Más oscuro para mayor énfasis */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    background: #16213E; /* Fondo oscuro */
+    padding: 30px; /* Más espacio para una mejor apariencia */
+    border-radius: 8px; /* Bordes más redondeados */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para efecto de elevación */
+    max-width: 400px; /* Ancho máximo para mantener el modal compacto */
+    color: white; /* Texto blanco */
+  }
+  
+  .modal p {
+    margin-bottom: 20px; /* Espacio entre el texto y los botones */
+    font-size: 18px; /* Tamaño de fuente más grande para mejor legibilidad */
+  }
+  
+  .btn {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Suave transición de color */
+    font-size: 16px; /* Tamaño de fuente más grande */
+  }
+  
+  .confirm-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .confirm-btn:hover {
+    background-color: #218838; /* Color de fondo más oscuro al pasar el ratón */
+  }
+  
+  .cancel-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #c82333; /* Color de fondo más oscuro al pasar el ratón */
+  }
+  
+  .title-modal {
+    color: #45ade9; /* Color azul claro para el título */
+    font-size: 24px; /* Tamaño de fuente más grande para el título */
+    margin-bottom: 10px; /* Espacio debajo del título */
+  }
+  
